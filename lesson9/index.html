@@ -4,10 +4,103 @@
         <meta charset="UTF8">
         <title>LESSON9</title>
     </head>
-        <body>
-
-
+    <body>
+    
+    <form>
+        <div>
+        <fieldset>
+            <legend>Регистрационная форма пользователя</legend>
             
+             <p> <label>
+                        Имя:
+             <input type="text" name="username">
+             </label> </p>
+      <p>
+          <label for="age">Укажите возраст:</label>
+           <select name="age" id="age">
+            <option disabled selected>Выберите возраст:</option>
+          <option value="10-15">10-15</option> 
+             <option value="15-20">15-20</option> 
+             <option value="20-30">20-30</option> 
+          <option value="30-40">30-40</option> 
+            <option value="40+">Ставше 40</option> 
+                        </select>
+                    </p>
+                    <p>
+                        Укажите пол:
+                        <label>
+                            Мужской
+                            <input type="radio" name="sex" value="mail">
+                        </label>
+                        <label>
+                            Женский
+                            <input type="radio" name="sex" value="femail">
+                        </label>
+                    </p>
+                    <p>
+                        <label for="age">Страна проживания:</label>
+                        <select name="age" id="age">
+                         <option disabled selected>Выберите возраст:</option>
+                       <option value="belarus">Беларусь</option> 
+                          <option value="russia">РФ</option> 
+                          <option value="usa">США</option> 
+                        </select> 
+                    </p>
+                    <p>
+                        Владение языками:
+                        <label>
+                            Русский
+                            <input type="radio" name="sex" value="Русский">
+                        </label>
+                        <label>
+                            Белорусский
+                            <input type="radio" name="sex" value="Белорусский">
+                        </label>
+                        <label>
+                            Английский
+                            <input type="radio" name="sex" value="Английский">
+
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            Фото профиля:
+                            <input type="file" accept=".jpg .png">
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            Введите логин:
+                            <input name="text" required>
+                        </label>
+                    </p>
+                      
+                    <p>
+                        <label>
+                            Введите пароль:
+                            <input name="password" required>
+                        </label>
+                    </p>                    <p>
+                        <label>
+                            Повторите пароль:
+                            <input name="password" required>
+                        </label>
+                    </p>
+           </div>  
+        </form>  
+    </fieldset>
+    <p>
+        <input type="reset" value="Сброс">
+        <input type="submit" value="Отправить">
+    </p>
+
+            <div>
+
+            </div>
+                
+            
+            
+
         </body>
 
 
