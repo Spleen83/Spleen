@@ -3,6 +3,7 @@
     <head>
         <title>Урок 10 - Формы</title>
         <meta charset="utf-8">
+        <script  src="form2.js"> </script>
     </head>
     <body>        
         <div>
@@ -59,7 +60,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>Адрес места жительства:</td>
+                        <td>Адрес места жительства <br>(пребывания) :</td>
                         <td>                        
                             <input type="text" name="address" size="50">
                         </td>
@@ -84,13 +85,68 @@
                         </td>
                     </tr>
                     <tr>
-                        
+                      <td>Образование:</td>  
+                      <td>
+                          <label>
+                          <input type="radio" name="education" value="1"> -
+                          основное общее среднее профессиональное;
+                        </label>                            
+                      <br>
+                        <label>
+                        <input type="radio" name="education" value="1"> -
+                        -среднее (полное) общее высшее профессиональное;
+                      </label>                                  
+                   <br>
+                        <label>
+                        <input type="radio" name="education" value="1"> -
+                        -начальное профессиональное;
+                      </label>                                  
+                    <br>
+                        <label>
+                        <input type="radio" name="education" value="1"> -
+                        -иное;
+                      </label>                                  
+                    </td>                
                     </tr>
-
+                    <tr>
+                        <td>Профессия(специальность):</td>
+                        <td>
+                            <input type="text" name="profession" size="50">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Стаж работы по специальности:</td>
+                        <td>
+                            <select name="experience">
+                            <option value="1">Менее года</option>
+                            <option value="2">От года до двух</option>
+                            <option value="3">От двух до пяти</option>
+                            <option value="4">Пять-десять</option>
+                            <option value="5">от 10 лет</option>                        
+                        </select>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>Предыдущее место работы:</td>
+                        <td>
+                            <input type="text" name="prior_work" size="50">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Период работы на<br> предыдущем месте:</td>
+                        <td> c
+                            <input type="date" name="data1">
+                            по <input type="date" name="data1">
+                        </td>
+                    </tr>
+                    <tr>
+                      <td>  
+                          <input type="reset" value="Очистить форму">
+                        <input type="button" onclick="checkForm()" value="Отправить данные">
+                        </td>                        
+                   </tr>
                 </table>
             </form>
-        </div>
-        
-
+        </div> 
     </body>
 </html>
