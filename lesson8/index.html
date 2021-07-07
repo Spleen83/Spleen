@@ -1,56 +1,72 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF8" />
-        <title>lesson8</title> 
-    </head>
-        <body>
-            <form>
-                <fieldset>
-                        <legend>Многострочные текстовые поля</legend>
-                        <textarea placeholder="Введите данные" name="text" id="" cols="20" rows="5">
-                            
-                        </textarea>
-                        <input type="text" name="user"> 
+<html lang="ru">
 
-                    <fieldset>
-                        <legend>Выпадающие списки</legend>
-                        <p>
-                            <p><strong>Выбери номер</strong></p>
-                            <p><select name="hero">
-                                <option value="s1">1</option>
-                                <option value="s2">2</option>
-                                <option value="s3">3</option>
-                             </select>
-                        </p>
-                        <p><strong>Выбери номер</strong></p>
-                            <p><select name="hero">
-                                <option value="s1">5</option>
-                                <option value="s2">6</option>
-                                <option value="s3">8</option>
-                             </select></p>
+<head>
+  <meta charset="UTF-8">
+  <title>списки</title>
+</head>
 
-                    </fieldset>
-                </fieldset>
-            </form>
+<body>
+  <h1 align="center">Cleverland</h1>
+  <h2 align="center">Формы. Элементы форм</h2>
+  <div class="form-container">
+    <form name="user-form" action="send.php" autocomplete="off" enctype="multipart/form-data" method="post">
+      <fieldset>
+        <legend>Данные пользователя</legend>
+        <p> Логин:
+          <input type="text" value=""  name="user" placeholder="Login">
+        </p>
+        <p> Пароль:
+          <input type="password" name="password" placeholder="password">
+        </p>
+        <p>
+          <input type="submit" value="Вход">
+        </p>
+      </fieldset>
+    </form>
+  </div>
+  <!----------------------------------------->
+  <div class="form-container">
+    <form name="user-form-2" action="send.php" enctype="text/plain">
+      <fieldset>
+        <legend>Пожелания</legend>
+        <p>
+          <select size="1" name="city">
+            <option disabled>Выберите город</option>
+            <option value="Orsha">Орша</option>
+            <option value="Vitebsk">Витебск</option>
+            <option value="Minsk">Минск</option>
+            <option value="Moscow">Москва</option>
+          </select>
+        </p>
+        <p>
+          <select size="4" multiple name="dreams">
+            <option disabled>Выберете что бы вы хотели иметь</option>
+            <option value="car">Машина</option>
+            <option value="house">Свой дом</option>
+            <option value="flat">Квартира</option>
+            <option selected value="garden">Сад</option>
+            <option value="ten-children">10 детей</option>
+            <option value="whife">Жена</option>
+          </select>
+        </p>
+        <p>
+          <label for="hey">Просите что хотите</label>
+          <input id="hey" type="text" name="personal">
+          <p>
+            <label><input type="checkbox" name="lll" value="значение"> Текст</label>
+          </p>
+        </p>
+        <p>
+          <textarea name="aboutMe" id="resume" cols="30" rows="10" placeholder="Много текста"></textarea>
+        </p>
+        <p>
+          <input type="submit" value="Отправить">
+        </p>
+      </fieldset>
+    </form>
+  </div>
 
-
-
-
-
-
-
-        </body>
-
-
-
-
-
-
-
-
+</body>
 
 </html>
-
-
-
