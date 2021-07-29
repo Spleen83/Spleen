@@ -13,7 +13,7 @@ td>p {
     padding: 0;
     margin: 0;
 }
-td[p] {
+td[colspan] {
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
