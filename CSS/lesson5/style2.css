@@ -1,0 +1,23 @@
+#p_1 {
+    width: 500px;
+    padding: 1em;
+    background-color: orange;
+text-align: left;
+}
+
+
+#p_2 {
+    width: 500px;
+    padding: 1em;
+    background-color: violet;
+    text-align: right;
+}
+span:nth-child(1) {
+    text-decoration: underline dotted black;
+}
+span:nth-last-of-type(2) {
+    text-decoration: underline dashed black;
+}
+span:last-child {
+    text-decoration: underline wavy black;
+}
