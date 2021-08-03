@@ -1,0 +1,32 @@
+div {
+    width: 400px;
+    padding: 7px;
+}
+
+p:first-child {
+    color: green;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+p:nth-last-of-type(2) {
+    color: #fff200;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.i {
+    text-decoration: underline double;
+    font-style: italic;
+}
+
+.b {
+    font-weight: bold;
+    text-decoration: underline dotted red;
+}
+
+.u {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1em;
+    word-spacing: 1px;
+}

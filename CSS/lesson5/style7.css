@@ -1,0 +1,9 @@
+.a {
+    vertical-align: super;
+    font-size: 0.5em;
+}
+
+.b {
+    vertical-align: sub;
+    font-size: 0.5em;
+}
