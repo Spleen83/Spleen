@@ -1,0 +1,31 @@
+    h1 {
+        color: royalblue;
+        text-shadow: 2px 2px;
+    }
+    
+    table {
+        border: 3px solid green;
+    }
+    
+    thead {
+        background-color: indigo;
+    }
+    
+    th {
+        background-color: blue;
+    }
+    
+    td:nth-last-child(4) {
+        background-color: brown;
+    }
+    
+    tr:nth-child(6) {
+        background-color: brown;
+    }
+    
+    tr:hover::after {
+        background-color: red;
+        content: "";
+    }
+    /* Не доделал
+    пока не знаю как */
