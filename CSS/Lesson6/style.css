@@ -1,0 +1,24 @@
+td {
+    border: 1px solid green;
+}
+
+
+/* Table #1 */
+
+.a {
+    border: 2px solid red;
+    border-collapse: collapse;
+    caption-side: top;
+    margin-bottom: 10px;
+}
+
+
+/* Table #2 */
+
+.b {
+    border-spacing: 10px;
+    border: 2px solid red;
+    border-collapse: separate;
+    caption-side: bottom;
+    empty-cells: hide;
+}
