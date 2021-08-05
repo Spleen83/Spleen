@@ -1,0 +1,8 @@
+ul >li {
+    list-style-type: circle;
+    color: crimson;
+}
+ul li ul li {
+    list-style-type: square;
+    color: cyan;
+}

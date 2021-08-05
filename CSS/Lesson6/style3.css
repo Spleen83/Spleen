@@ -1,15 +1,19 @@
 thead:first-child {
-    background: linear-gradient(to top, #8af004, #6ab623);
+    background: linear-gradient(#8b9282, #242523);
 }
 
 th:first-child {
     background: linear-gradient( 45deg, #8af004, #6ab623);
 }
 
-table {
+tr {
     empty-cells: hide;
     width: 120px;
     padding: 15px;
+   
+}
+td {
+    border-radius: 50px;
 }
 
 
