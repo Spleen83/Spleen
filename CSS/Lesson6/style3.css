@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
     td {
         border-radius: 5px;
         width: 120px;
@@ -23,7 +23,7 @@
         text-align: center;
         font-weight: bold;
     }
-=======
+
 thead:first-child {
     background: linear-gradient(#8b9282, #242523);
 }
@@ -43,5 +43,4 @@ td {
 }
 
 
-/* не доделал */
->>>>>>> 2fb3238f87d42773c8fb69df6fce9fba56563e96
+

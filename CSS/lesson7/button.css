@@ -1,7 +1,29 @@
-#but {
+
+a {
     display: block;
     margin: 20px;
     padding: 10px;
     background: linear-gradient(to top, #4fbd24, #41ec03);
     width: 150px;
+    border: 1px solid white;
+    outline-offset: -4px;
+    outline: solid 1px white;
+    border-radius: 5px; 
+    color: white;
+    }
+
+a:link{
+    background: linear-gradient(to top, #f9a80c, #fbc157);
+}
+
+a:hover{
+    background: linear-gradient(to top, #f9cd66, #fae069);
+}
+
+
+.ssilka {
+    border: 2px solid green;
+    background-color: greenyellow;
+    width: 200px;
+    height: 200px;
 }
