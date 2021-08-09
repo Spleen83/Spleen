@@ -1,0 +1,28 @@
+.div_1 {
+    background-color: yellow;
+    width: 400px;
+    height: 10vh;
+    margin-bottom: 10px;
+    border: red 4px solid;
+    border-top: 4px dotted #000;
+    border-bottom: 4px dotted #000;
+    outline: firebrick 4px solid;
+    border-radius: 50px;
+}
+
+.div_2 {
+    background-color: violet;
+    width: 300px;
+    height: 200px;
+    min-width: 400px;
+    max-width: 100px;
+    border: yellowgreen 4px solid;
+    border-top: 4px double #000;
+    border-bottom: 4px double #000;
+    outline: dotted 4px black;
+    outline-offset: -95px;
+    border-bottom-right-radius: 2em;
+    border-bottom-left-radius: 8em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}

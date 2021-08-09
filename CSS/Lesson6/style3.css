@@ -1,16 +1,24 @@
-thead:first-child {
-    background: linear-gradient(to top, #8af004, #6ab623);
-}
-
-th:first-child {
-    background: linear-gradient( 45deg, #8af004, #6ab623);
-}
-
-table {
-    empty-cells: hide;
-    width: 120px;
-    padding: 15px;
-}
-
-
-/* не доделал */
+    td {
+        border-radius: 5px;
+        width: 120px;
+        padding: 15px;
+        background-color: #c5ec91;
+    }
+    
+    th {
+        background: linear-gradient(to top, #8af004, #6ab623);
+        empty-cells: hide;
+        color: rgb(235, 220, 255);
+        height: 40px;
+        width: 80px;
+        font-size: 1.1em;
+    }
+    
+    tbody tr th {
+        background: linear-gradient( 45deg, #bcee7a, #e76e92);
+    }
+    
+    table {
+        text-align: center;
+        font-weight: bold;
+    }

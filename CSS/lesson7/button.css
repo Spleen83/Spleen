@@ -1,0 +1,7 @@
+#but {
+    display: block;
+    margin: 20px;
+    padding: 10px;
+    background: linear-gradient(to top, #4fbd24, #41ec03);
+    width: 150px;
+}
