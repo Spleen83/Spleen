@@ -1,3 +1,4 @@
+<<<<<<< HEAD
     td {
         border-radius: 5px;
         width: 120px;
@@ -22,3 +23,25 @@
         text-align: center;
         font-weight: bold;
     }
+=======
+thead:first-child {
+    background: linear-gradient(#8b9282, #242523);
+}
+
+th:first-child {
+    background: linear-gradient( 45deg, #8af004, #6ab623);
+}
+
+tr {
+    empty-cells: hide;
+    width: 120px;
+    padding: 15px;
+   
+}
+td {
+    border-radius: 50px;
+}
+
+
+/* не доделал */
+>>>>>>> 2fb3238f87d42773c8fb69df6fce9fba56563e96

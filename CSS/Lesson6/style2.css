@@ -3,10 +3,18 @@
         text-shadow: 2px 2px;
     }
     
-    table {
-        border: 3px solid green;
+    table {      
+        border-collapse: collapse;
+       
+        overflow: hidden;
     }
-    
+    tr {
+        border: 2px solid rgb(3, 3, 3);
+    }
+    td {
+        border: 2px solid rgb(0, 0, 0);
+        position: relative;
+    }
     thead {
         background-color: indigo;
     }
@@ -14,18 +22,19 @@
     th {
         background-color: blue;
     }
-    
-    td:nth-last-child(4) {
-        background-color: brown;
-    }
-    
-    tr:nth-child(6) {
-        background-color: brown;
-    }
-    
-    tr:hover::after {
-        background-color: red;
+    td:hover::after {
+        background-color: rgba(140, 140, 255, 0.4);
         content: "";
+        position: absolute;
+        height: 2000vh;
+        left: 0;
+        top: -1000vh;
+        width: 100%;
+        z-index: -1;
     }
-    /* Не доделал
-    пока не заню как */
+    tr:hover {
+        background-color: rgba(140, 140, 255, 0.4); 
+    }
+    
+
+    
