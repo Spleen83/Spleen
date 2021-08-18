@@ -1,0 +1,23 @@
+.container {
+    width: 140px;
+    height: 280px;
+    text-align: center;
+    background: white;
+    float: left;
+    margin: 2px;
+}
+
+.data {
+    background-color: blue;
+    color: white;
+}
+
+.weather {
+    background-color: white;
+    font-size: 40px;
+    color: black;
+}
+
+.container:hover {
+    box-shadow: 0 0 10px black;
+}
