@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 1</title>
+    <style>
+        .div_1 {
+            position: fixed;
+            width: 300px;
+            height: 550px;
+            padding: 15px;
+            left: 35px;
+            top: 30px;
+            border: green dashed 4px;
+        }
+        
+        .div_2 {
+            width: 70px;
+            height: 50px;
+            background: radial-gradient(35px 35px at 10px 10px, #00ffff, #ffffff);
+            padding: 5px;
+            border: solid orange 2px;
+            float: left;
+        }
+        
+        .div_3 {
+            width: 70px;
+            height: 50px;
+            background: linear-gradient(45deg, #0000ff, #ffffff);
+            padding: 5px;
+            border: dashed red 2px;
+            float: right;
+        }
+        
+        .div_3:hover {
+            opacity: 0.3;
+        }
+    </style>
+</head>
+<div class="div_1">
+    Для основного div'а установлено фиксированное позиционирование, смещение сверху 30px, слева 35px, ширина div'а 300px, высота div'а 400px, внутренние отступы 15px. <br><br>
+
+    <div class="div_2">div_2</div> Для второго div'а ширина равна 70px, высота 50px, градиент (35px 35px at 10px 10px, #00ffff, #ffffff), внутренние отступы &ndash; 5px, ширина границы &ndash; 2px. Плавает слева.
+    <br><br>
+
+    <div class="div_3">div_3</div> Для третьего div'а ширина равна 70px, высота 50px, градиент (45deg, #0000ff, #ffffff), внутренние отступы 5px, ширина границы &ndash; 2px. Плавает справа. При наведении курсора меняет свою прозрачность на 0.3.
+</div>
+
+<body>
+
+
+</body>
+
+</html>
