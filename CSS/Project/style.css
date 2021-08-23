@@ -1,0 +1,18 @@
+body {
+    background-color: #e5e5e5;
+}
+.header {
+    background-color: #000000;
+}
+.lending {
+    min-width: 1440px;
+    width: 100%;
+    background-color: #ffffff;
+    height: 100vr;
+    margin: 0 auto;
+}
+.wraper {
+    min-width: 1290px;
+    padding: 8px;
+    margin: 0 auto;
+}
