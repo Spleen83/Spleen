@@ -177,4 +177,22 @@
         height: 100vh;
         background: url(../img/intro.jpg) no-repeat center;
         background-size: cover;
+        padding-top: 263px;
+    }
+    
+    .title_intro {
+        max-width: 619px;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 60px;
+        color: #FFFFFF;
+        margin-bottom: 22px;
+    }
+    
+    .intro_subtitle {
+        max-width: 546px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        margin-bottom: 59px;
     }
